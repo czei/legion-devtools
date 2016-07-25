@@ -5,10 +5,11 @@ LEGION_ROOT="${LEGION_ROOT:-https://github.com/lane-webperformance}"
 
 if [ -z "$1" ]; then
   git clone "$LEGION_ROOT/legion.git"
-  git clone "$LEGION_ROOT/legion-io.git"
+  git clone "$LEGION_ROOT/legion-capture.git"
   git clone "$LEGION_ROOT/legion-instrument.git"
-  git clone "$LEGION_ROOT/legion-metrics.git"
+  git clone "$LEGION_ROOT/legion-io.git"
   git clone "$LEGION_ROOT/legion-io-fetch.git"
+  git clone "$LEGION_ROOT/legion-metrics.git"
   git clone "$LEGION_ROOT/legion-obstacle-course.git"
   git clone "$LEGION_ROOT/legion-starter-pack.git"
 

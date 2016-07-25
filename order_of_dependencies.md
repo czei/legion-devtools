@@ -18,9 +18,10 @@ These libraries have no dependencies on any other legion project.
 Second Tier
 -----------
 
-This library depends on projects in the first tier.
+These libraries depends on projects in the first tier.
 
  * legion-instrument
+ * legion-capture
 
 Third Tier
 ----------
